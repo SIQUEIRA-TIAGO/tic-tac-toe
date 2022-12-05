@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  color: #fff;
+}
+body {
+  background-color: #399fb5;
+}
+label {
+  padding-top: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+input {
+  border-radius: 5px;
+}
+#restart {
+  height: 35px;
+  border: transparent;
+  border-radius: 10px;
+  width: 300px;
+  margin-top: 10px;
+  background-color: #399fb5;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+.container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 95vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gameScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 160px;
+  background-color: #1e2835;
+  border-radius: 10px;
+  padding: 10px;
+}
+#gameArea {
+  margin-top: 10px;
+  display: grid;
+  height: 400px;
+  width: 400px;
+  background-color: #1e2835;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.markArea {
+  color: #1e2835;
+  font-weight: 900;
+  font-size: 50px;
+  background-color: #399fb5;
+  border: #1e2835 2px solid;
+  cursor: pointer;
+}
+.markArea:hover {
+  background-color: #328a9e;
+}
+footer span {
+  padding-top: 5px;
+  color: #1e2835;
+}
+#turnPlayer {
+  color: white;
+  font-size: 30px;
+}
